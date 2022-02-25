@@ -1,0 +1,81 @@
+/* selektors{
+    krāsa:zila;
+    fons:zaļš;
+} */
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(6, 112, 250);
+    background-image: url("https://www.teahub.io/photos/full/126-1268415_web-backgrounds.jpg");
+    background-size: contain; /*cover*/
+    background-attachment: fixed; /*scroll*/
+    background-image: linear-gradient(45deg,red,green,blue,yellow);
+    font-size: 16pt;
+}
+
+/* Navigācija */
+    nav{
+        height: 60px;
+        background-color: black;
+
+    }
+
+    nav ul{
+        height: 60px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+        
+        align-items: center;
+
+    }
+
+    nav ul li{
+        margin: 0px 20px; 
+        /* ieliek atkāpes starp elementiem */
+
+    }
+
+
+    nav ul li a{
+        display: block;
+        color:white;
+        text-decoration: none;
+        font-family: "Audiowide", sans-serif;
+        transition: 0.3s;
+    }
+    nav ul li a:hover, .active_menu{
+        color:rgb(252, 5, 5);
+        transform: translate(0px,-3px);
+        transition: 0.3s;
+    }
+
+
+/* Navigācija */
+
+p{
+    background-color: aliceblue;
+    width:75%;
+    margin: 20px auto;
+    padding:20px;
+}
+h1,h2,h3{
+    width:40%; 
+    color:rgb(255, 255, 255);
+    font-size: 45pt;
+    text-align: center;
+    font-family: "Algerian",fantasy;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 0px 0px 10px black;
+    /* height:100px; */
+    margin: 20px auto;
+    padding:20px;
+}
+
+img{
+    height:100px;
+}
